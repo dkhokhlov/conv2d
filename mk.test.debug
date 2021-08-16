@@ -1,0 +1,7 @@
+#!/bin/bash
+set -ex
+gdbserver 172.16.0.110:5555 python test.py
+set +x
+echo
+echo @@@@@@@@ SUCCESS @@@@@@@
+echo

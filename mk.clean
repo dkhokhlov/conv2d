@@ -1,0 +1,11 @@
+#!/bin/bash
+set -ex
+rm -rf $PWD/build
+rm -rf $PWD/cmake-build-debug
+rm -rf $PWD/.pytest_cache
+rm -rf $PWD/__pycache__
+#conda build purge
+set +x
+echo
+echo @@@@@@@@ SUCCESS @@@@@@@
+echo
